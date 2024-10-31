@@ -1,0 +1,137 @@
+div.play-store-container {
+	line-height:1;
+	border:0px;
+	width:100%;
+	max-width: 480px;
+	margin:0 auto;
+	padding: 0;
+	text-align:center;
+}
+
+div.play-store-container #top-play-store{
+	height: 12px;
+	background-image: url(images/top-market.jpg);
+	background-position: left top;
+	margin:0 auto;
+	padding: 0;
+	/*-moz-border-radius-topleft: 5px;
+	border-top-left-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px;*/
+}
+
+div.play-store-table {
+	border:0px;
+	/*overflow:hidden;*/
+	background-image: url(images/background.jpg);
+	background-position: left top;
+	margin:0 auto;
+	padding: 6px 0 6px 0;
+	/*-moz-border-radius-bottomleft: 5px;
+	border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	border-bottom-right-radius: 5px;*/
+}
+
+div.play-store-table img{
+	box-shadow:none;
+	border-radius:0px;
+}
+
+div.play-store-table a{
+	text-decoration:none !important;
+}
+
+div.play-store-table #play-store-app-icon, div.play-store-table #play-store-install {
+	width: 85px;
+	text-align: center;
+	vertical-align:middle;
+	padding: 0;
+	margin: 0 auto;
+	display:inline-block;
+}
+
+div.play-store-table #play-store-app-icon img {
+	width: 75px;
+	height: 75px;
+	margin: 0 auto;
+	border: 0;
+	/*border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;*/
+	background:none !important;
+}
+
+div.play-store-table #play-store-text {
+	width: 220px;
+	padding: 0;
+	margin: 0 auto;
+	vertical-align: middle;
+	display:inline-block;
+	text-align:left;
+}
+
+div.play-store-table #play-store-install img.play-store-button {
+	width: 85px;
+	height: 24px;
+	margin: 2px auto;
+	padding: 0;
+	border: 0;
+}
+
+div.play-store-table #play-store-qrcode{
+	width: 85px;
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+	vertical-align: middle;
+	display:inline-block;
+	-webkit-transition: all .3s ease-out; 
+	-moz-transition: all .3s ease-out; 
+	-o-transition: all .3s ease-out; 
+	transition: all .3s ease-out;
+}
+
+div.play-store-table #play-store-qrcode img {
+	width: 75px;
+	height: 75px;
+	margin: auto;
+	border: 0;
+	background:none !important;
+}
+
+span.play-store-app-name {
+	font-size: 19px;
+	color: #a4c639;
+	text-shadow:0px -2px 0px #222222;
+	line-height: 23px;
+}
+
+span.play-store-developer {
+	font-size: 13px;
+	color: #ffffff;
+	line-height: 17px;
+}
+
+span.play-store-price{
+	font-size: 14px;
+	color: #ffffff;
+	line-height:18px;
+}
+
+div.stars-container{
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+	padding-top:3px;
+}
+div.tiny-star{
+	background:url(images/star-empty.png);
+	height: 14px;
+	width: 69px;
+}
+div.current-rating{
+	background:url(images/star-full.png);
+	height:14px;
+}
